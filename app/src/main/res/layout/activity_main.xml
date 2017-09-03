@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <yuejunfeng20170825.bw.com.view.CustomTextView
+        android:id="@+id/MyTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        custom:leftTextColor="#FFFFFF"
+        custom:leftTexttitle="返回"
+        custom:leftBackground="@color/colorPrimary"
+        custom:rightTextColor="#ffffff"
+        custom:rightTexttitle="更多"
+        custom:rightBackground="@color/colorAccent"
+        custom:textsize="8dp"
+        custom:titleColor="#000000"
+        custom:toptitle="自定义标题">
+       ></yuejunfeng20170825.bw.com.view.CustomTextView>
+
+</RelativeLayout>
